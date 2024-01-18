@@ -1,0 +1,99 @@
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: whitesmoke;
+    background-color:rgb(29,41,39);
+    height: max-content;
+
+    .container{
+        width: 90%;
+        margin-top: 20px;
+        display: flex;
+        padding: 30px;
+        justify-content: center;
+
+        .left{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+        .right{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            line-height: 250%;
+            display: flex;
+            flex-direction: column;
+
+              p{
+                width: 80%;
+                font-size: 28px;
+                font-weight: 100;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-style: italic;
+              }  
+        }
+        p{
+            width: 80%;
+            font-size: 33px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+        }
+    }
+}
+
+@media (max-width:780px) {
+    .main{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        color: whitesmoke;
+        background-color:rgb(29,41,39);
+        
+    
+        .container{
+            width: 90%;
+            margin-top: 20px;
+            display: flex;
+            padding: 30px;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+    
+            .left{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .right{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                position: relative;
+                font-weight: 100;
+                text-align: center;
+
+                p{
+                    width: 100%;
+                    font-size: 28px;
+                    font-weight: 100;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-style: italic;
+                    text-align: center;
+                  }  
+                
+            }
+            p{
+                width: 100%;
+                font-size: 28px;
+                font-weight: 100;
+                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                font-style: italic;
+                text-align: center;
+            }
+        }
+    }
+}

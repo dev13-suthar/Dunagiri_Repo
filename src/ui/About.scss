@@ -1,0 +1,74 @@
+.about{
+    background-color: gainsboro;
+    padding: 20px;
+
+    h1{
+        font-weight: 700;
+        padding: 5px;
+        color: rgb(1,66,55);
+    }
+    .container{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        height:max-content;
+        flex-direction: column;
+        align-items: center;
+    }
+    section{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    
+   button{
+    padding: 10px;
+    background-color: rgb(1,66,55);
+    color: whitesmoke;
+    padding: 8px 22px;
+    transition: all 500ms ease-in-out;
+    margin-bottom: 25px;
+   }
+   button:hover{
+    color: rgb(1,66,55);
+    background-color: whitesmoke;
+   }
+}
+
+@media (max-width:775px) {
+    .about{
+        background-color: gainsboro;
+        padding: 10px;
+    
+        h1{
+            font-weight: 700;
+            padding: 5px;
+            color: rgb(1,66,55);
+        }
+        .container{
+            width: 100%;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        section{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+        }
+        
+       button{
+        padding: 10px;
+        background-color: rgb(1,66,55);
+        color: whitesmoke;
+        padding: 8px 22px;
+        transition: all 500ms ease-in-out;
+        margin-bottom: 25px;
+       }
+       button:hover{
+        color: rgb(1,66,55);
+        background-color: whitesmoke;
+       }
+    }
+}

@@ -1,0 +1,14 @@
+button{
+    width: max-content;
+    padding: 8px;
+    width: 180px;
+    background-color: rgb(1,66,53);
+    color: whitesmoke;
+    transition: all 200ms ease-in;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    color: rgb(1,66,53);
+    outline-color: rgb(1,66,53);
+}

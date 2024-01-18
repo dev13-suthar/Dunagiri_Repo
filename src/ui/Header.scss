@@ -1,0 +1,134 @@
+
+.header_content{
+    width: 100vw;
+    height: calc(90vh);
+    background-image: url("../assets/Dunagiri2.jpg");
+    background-position: bottom;
+    background-size:cover;
+    overflow-x: hidden;
+    z-index: 1;
+    .info{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        .box{
+            height: max-content;
+            width: 60%;
+            border: 1px solid red;
+            opacity: 1;
+            padding: 25px;
+            z-index: 4;
+            background-color: transparent;
+            border: 1px solid sandybrown;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            filter: blur(80);
+            .content{
+                padding: 40px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h1{
+                    font-weight: 900;
+                    font-size: 3.4rem;
+                    padding: 25px;
+                    margin-bottom: 15px;
+                }
+                p{
+                    text-align: center;
+                    font-weight: 300;
+                    font-size: 1.4rem;
+                    padding: 20px;
+                    color: whitesmoke;
+                }
+                button{
+                    position: absolute;
+                    bottom: -10px;
+                    padding:15px 40px;
+                    border-radius: 6px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    background-color: rgb(1, 66, 53);
+                    color: aliceblue;
+                    outline: 0;
+                    cursor: pointer;
+                    transition: all 200ms linear;
+                    
+                }
+                button:hover{
+                    color: rgb(1,66,52);
+                    background-color: aliceblue;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:760px) {
+    .header_content{
+        width: 100vw;
+        height: calc(89vh);
+        background-image: url("../assets/Dunagiri2.jpg");
+        background-position: bottom;
+        background-size:cover;
+        overflow-x: hidden;
+        z-index: 1;
+        .info{
+            height: 90%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2;
+            .box{
+               height: max-content;
+               width: 80%;
+                border: 1px solid rgb(0, 255, 102);
+                opacity: 1;
+                padding: 15px;
+                z-index: 4;
+                .content{
+                    padding: 36px;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h1{
+                        font-weight: 900;
+                        font-size: 2.6rem;
+                        padding: 20px;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        text-align: center;
+                        font-weight: 300;
+                        font-size: 1.2rem;
+                        padding: 20px;
+                    }
+                    button{
+                        position: absolute;
+                        bottom: 0;
+                        padding:10px 30px;
+                        border-radius: 6px;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        background-color: rgb(1, 66, 53);
+                        color: aliceblue;
+                        outline: 0;
+                        cursor: pointer;
+                        transition: all 200ms linear;
+                    }
+                    button:hover{
+                        color: rgb(1,66,52);
+                        background-color: aliceblue;
+                    }
+                }     
+            }
+        }
+    }
+}

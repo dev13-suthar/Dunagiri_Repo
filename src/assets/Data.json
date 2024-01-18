@@ -1,0 +1,33 @@
+[
+    {
+        "que":"In need of a mind-body reset?",
+        "ans":"Discover an approach to wellness tailored to your unique constitution that gives your mind and body what it needs to thrive.",
+        "img":"../../src/assets/react.svg"
+    },
+    {
+        "que":"Searching for something greater in life?",
+        "ans":"Immerse yourself in a period of reflection and self-discovery to uncover your desires and purpose.",
+        "img":"../../src/assets/career-growth_11184652.png"
+    },
+    {
+        "que":"Experiencing a life transition?",
+        "ans":"Gain tools to move through periods of unease with purpose and clarity.",
+        "img":"../../src/assets/upgrade_9474808.png"
+    },
+    {
+        "que":"Looking for a spiritual awakening?",
+        "ans":"Experience profound shifts as you reconnect to the divine through daily meditation and yoga practices.",
+        "img":"../../src/assets/focus (1).png"
+    },
+    {
+        "que":"Ready to refill your cup?",
+        "ans":"Step away from that to-do list to nourish and replenish yourself in a lasting way.",
+        "img":"../../src/assets/confidence.png"
+    },
+    {
+        "que":"Wanting to live a healthier, happier life?",
+        "ans":"Uncover Kriya Yoga's secrets to thriving wellbeing and awaken the eternal source of joy within.",
+        "img":"../../src/assets/success_672038.png"
+    }    
+
+]
